@@ -3,7 +3,6 @@
     "name": "React Native prototype",
     "slug": "react-native-prototype",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android",
@@ -25,6 +24,14 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1aea6800-a42c-4832-a5a0-fbad6fe256ef"
+      }
+    },
+    "android": {
+      "package": "com.branlucas98.reactnativeprototype"
     }
   }
 }
